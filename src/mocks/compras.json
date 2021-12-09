@@ -1,0 +1,93 @@
+[
+    {
+        "id":"1111",
+        "item":"margarina 1kl",
+        "marca":"doriana",
+        "preco":9.98
+    },
+    {
+        "id":"2222",
+        "item":"leite desnatado 1l",
+        "marca":"piracanjuba",
+        "preco":3.69
+    },
+    {
+        "id":"3333",
+        "item":"ketchup picante",
+        "marca":"heinz",
+        "preco":7.99
+    },
+    {
+        "id":"4444",
+        "item":"sardinha",
+        "marca":"gomes da costa",
+        "preco":4.39
+    },
+    {
+        "id":"5555",
+        "item":"iorgute 540g",
+        "marca":"tirol",
+        "preco":3.79
+    },
+    {
+        "id":"6666",
+        "item":"molho tomate",
+        "marca":"predileta",
+        "preco":1.29
+    },
+    {
+        "id":"7777",
+        "item":"arroz",
+        "marca":"tio joão",
+        "preco":9.98
+    },
+    {
+        "id":"8888",
+        "item":"açucar",
+        "marca":"guarani",
+        "preco":3.39
+    },
+    {
+        "id":"9999",
+        "item":"feijão",
+        "marca":"santo antonio",
+        "preco":6.39
+    },
+    {
+        "id":"1010",
+        "item":"ovos",
+        "marca":"parati",
+        "preco":9.98
+    },
+    {
+        "id":"1212",
+        "item":"café 500g",
+        "marca":"melita",
+        "preco":12.49
+    },
+    {
+        "id":"1313",
+        "item":"aveia 165g",
+        "marca":"quaker",
+        "preco":3.89
+    },
+    {
+        "id":"1414",
+        "item":"manteiga 200g",
+        "marca":"tirol",
+        "preco":9.98
+    },
+    {
+        "id":"1515",
+        "item":"queijo prato 150g",
+        "marca":"tirol",
+        "preco":6.49
+    },
+    {
+        "id":"1616",
+        "item":"presunto 200g",
+        "marca":"perdigão",
+        "preco":7.59
+    }
+
+]
