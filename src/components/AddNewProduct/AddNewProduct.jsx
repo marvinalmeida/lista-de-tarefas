@@ -1,16 +1,15 @@
-import React, { useState } from "react";
-import AddQuantity from "../AddQuantity/AddQuantity";
+import React from "react";
+import AddQuantity from "../AddQuantity/OrdersQuantity";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import AddIcon from "@material-ui/icons/Add";
 import { Wrapper } from "./AddNewProduct.styles";
+import useOrders from "../../hooks/OrdersHook";
+
 
 const AddNewProduct = ({ dataActiveMonth }) => {
-  const dadosLocalStorage = JSON.parse(localStorage.getItem("orders") || "[]");
 
-  const [orders, setOrders] = useState(dadosLocalStorage);
-
-  const [addProduct, setAddProduct] = useState({});
+  const { orders, setOrders, addProduct, setAddProduct } = useOrders()
 
   const addNewProduct = () => {
     const id = new Date().getTime();

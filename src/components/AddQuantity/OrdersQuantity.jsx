@@ -3,11 +3,14 @@ import AddCircleOutlineIcon from "@material-ui/icons/AddCircleOutline";
 import Card from "@material-ui/core/Card";
 import DeleteOutlineIcon from "@material-ui/icons/DeleteOutline";
 import RemoveCircleOutlineIcon from "@material-ui/icons/RemoveCircleOutline";
-import { Wrapper } from "../AddQuantity/AddQuantity.styles";
-import { getTotalPrice, getTotalProductsPrice } from "../../utils/total";
+import { Wrapper } from "./OrdersQuantity.styles";
+import { getTotalPrice } from "../../utils/total";
+import useOrders from "../../hooks/OrdersHook"
 
-const AddQuantity = ({ orders, setOrders, dataActiveMonth }) => {
-  console.log(orders);
+
+const OrdersQuantity = () => {
+
+  const {orders, setOrders, dataActiveMonth } = useOrders()
 
   const handleAddQuantity = (id) => {
     const updatedProducts = orders.map((o) => {
@@ -110,4 +113,4 @@ const AddQuantity = ({ orders, setOrders, dataActiveMonth }) => {
   );
 };
 
-export default AddQuantity;
+export default OrdersQuantity;
