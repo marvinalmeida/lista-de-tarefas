@@ -1,19 +1,17 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
 import AddNewProduct from "../../components/AddNewProduct/AddNewProduct";
 import Layout from "../../components/Layout/Layout";
+import useOrders from "../../hooks/OrdersHook";
 
 const Mes = () => {
 
-  const { pathname } = useLocation();
-
-  const dataActiveMonth = pathname.split("/")[2];
+  const { dataActiveMonth } = useOrders()
 
   return (
     <>
       <Layout>
-        <h2>{dataActiveMonth}</h2>
-        <AddNewProduct dataActiveMonth={dataActiveMonth} />
+        <h2>Mês: {dataActiveMonth}</h2>
+        <AddNewProduct/>
       </Layout>
     </>
   );
