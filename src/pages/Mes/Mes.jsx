@@ -10,8 +10,8 @@ const Mes = () => {
   return (
     <>
       <Layout>
-        <h2>{dataActiveMonth}</h2>
-        <AddNewProduct dataActiveMonth={dataActiveMonth} />
+        <h2>Mês: {dataActiveMonth}</h2>
+        <AddNewProduct/>
       </Layout>
     </>
   );

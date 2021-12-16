@@ -7,9 +7,9 @@ import { Wrapper } from "./AddNewProduct.styles";
 import useOrders from "../../hooks/OrdersHook";
 
 
-const AddNewProduct = ({ dataActiveMonth }) => {
+const AddNewProduct = () => {
 
-  const { orders, setOrders, addProduct, setAddProduct } = useOrders()
+  const { orders, setOrders, addProduct, setAddProduct, dataActiveMonth } = useOrders()
 
   const addNewProduct = () => {
     const id = new Date().getTime();
